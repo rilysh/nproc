@@ -1,0 +1,9 @@
+** nproc
+Print the number of CPU cores.
+
+** Usage
+Run =nproc --help= to print this help message.
+#+begin_src txt
+usage: nproc [--all] [--online] [--usable] [--ignore=COUNT]
+       [--help] [--version]
+#+end_src

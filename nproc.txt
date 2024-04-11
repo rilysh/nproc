@@ -1,0 +1,29 @@
+NAME
+  nproc - print the number of CPU cores
+
+SYNOPSIS
+  nproc [--all] [--online] [--usable] [--ignore=NUMBER]
+        [--help] [--version]
+
+DESCRIPTION
+  nproc command prints the number of CPU cores that are
+  available for a specific case, including the limited
+  and online cores.
+
+  --all
+	print the number of available CPU cores.
+  --online
+	print the number of active CPU cores.
+  --usable
+	print the number of usable CPU cores by the
+	operating system.
+  --ignore=COUNT
+	ignore the number of cores, (e.g. all_cores -
+	ignored_cores). Default is --usable.
+  --help
+	print the help message.
+  --version
+	print the version information.
+
+AUTHOR
+   By rilysh <horizon@quicknq.anonaddy.me>
